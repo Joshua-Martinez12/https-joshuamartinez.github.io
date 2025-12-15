@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Young Black Poets</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    #poemList {
+      margin-top: 30px;
+      padding: 20px;
+      border: 2px solid #000;
+      background: black;
+    }
+
+    .poemEntry {
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="container">
+    <h1>Young Black Poets</h1>
+    <p>Share your voice. Share your power.</p>
+  </header>
+
+  <main class="container">
+    <form id="poemForm">
+      <label for="poetName">Your Name:</label>
+      <input type="text" id="poetName" placeholder="Enter your name">
+
+      <label for="poem">Your Poem:</label>
+      <textarea id="poem" rows="8" placeholder="Write your poem here..."></textarea>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <a href="index.html">←Sankofa</a>
+
+    <!-- container for all poems -->
+<div id="poemList">
+    <h2>Submitted Poems</h2>
+  </div>
+  
+
+  <button id="deleteAllBtn" style="margin-top:12px;">Delete All Poems</button>
+
+  <!-- <script src="poems.js"></script> -->
+  
+    </div>
+  </main>
+
+  <script src="poem.js">
+   
+  </script>
+
+</body>
+</html>
